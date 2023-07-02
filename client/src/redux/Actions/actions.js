@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const getCountries=()=>{
     return async function(dispatch){
-        const apiData = await axios.get(`/countries`);
+        const apiData = await axios.get('/countries');
         const countries = apiData.data.map(country=>{
             return{
                 id: country.id,

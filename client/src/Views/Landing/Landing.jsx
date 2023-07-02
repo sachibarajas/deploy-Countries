@@ -11,7 +11,7 @@ const Landing = () => {
 
             <p className={s.presentation}> Welcome travelers to the App that helps you find the best places and memorable activities to live your next story to tell, enjoy the experience and say, !I'm going on an adventure!</p>
             
-            <a href='http://localhost:3000/home'>
+            <a href='https://deploy-countries-silk.vercel.app/home'>
                 <img src={btnImg} alt="halla" className={s.startBtnImg}/>
             </a>
 
