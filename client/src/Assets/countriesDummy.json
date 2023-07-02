@@ -1,0 +1,79 @@
+[
+	{
+		"id": "COL",
+		"name": "Colombia",
+		"officialName": "Republic of Colombia",
+		"flag": "https://flagcdn.com/w320/co.png",
+		"continent": "Americas",
+		"capital": "Bogotá",
+		"subRegion": "South America",
+		"area": 1141748,
+		"population": 50882884
+	},
+	{
+		"id": "FRA",
+		"name": "France",
+		"officialName": "French Republic",
+		"flag": "https://flagcdn.com/w320/fr.png",
+		"continent": "Europe",
+		"capital": "Paris",
+		"subRegion": "Western Europe",
+		"area": 551695,
+		"population": 67391582
+	},
+	{
+		"id": "ISR",
+		"name": "Israel",
+		"officialName": "State of Israel",
+		"flag": "https://flagcdn.com/w320/il.png",
+		"continent": "Asia",
+		"capital": "Jerusalem",
+		"subRegion": "Western Asia",
+		"area": 20770,
+		"population": 9216900
+	},
+	{
+		"id": "ITA",
+		"name": "Italy",
+		"officialName": "Italian Republic",
+		"flag": "https://flagcdn.com/w320/it.png",
+		"continent": "Europe",
+		"capital": "Rome",
+		"subRegion": "Southern Europe",
+		"area": 301336,
+		"population": 59554023
+	},
+	{
+		"id": "NCL",
+		"name": "New Caledonia",
+		"officialName": "New Caledonia",
+		"flag": "https://flagcdn.com/w320/nc.png",
+		"continent": "Oceania",
+		"capital": "Nouméa",
+		"subRegion": "Melanesia",
+		"area": 18575,
+		"population": 271960
+	},
+	{
+		"id": "ESP",
+		"name": "Spain",
+		"officialName": "Kingdom of Spain",
+		"flag": "https://flagcdn.com/w320/es.png",
+		"continent": "Europe",
+		"capital": "Madrid",
+		"subRegion": "Southern Europe",
+		"area": 505992,
+		"population": 47351567
+	},
+	{
+		"id": "USA",
+		"name": "United States",
+		"officialName": "United States of America",
+		"flag": "https://flagcdn.com/w320/us.png",
+		"continent": "Americas",
+		"capital": "Washington, D.C.",
+		"subRegion": "North America",
+		"area": 9372610,
+		"population": 329484123
+	}
+]

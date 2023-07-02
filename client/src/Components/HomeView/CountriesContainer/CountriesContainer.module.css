@@ -1,0 +1,19 @@
+.CountriesContainer{
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px ;
+    height: 80%;
+    padding: 0px 0px 0px 25px;
+    /* border: 1px solid green; */
+}
+
+.Warning{
+    display: flex;
+    color: brown;
+    text-justify: auto;
+    margin-left: 35%;
+    font-family: HelveticaLTStd-cond;
+}
+

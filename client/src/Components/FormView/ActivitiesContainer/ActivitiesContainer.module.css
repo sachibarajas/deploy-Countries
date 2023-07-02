@@ -1,0 +1,9 @@
+.ActivitiesContainer{
+    height: 79%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 0px 0px 0px 10%;
+}

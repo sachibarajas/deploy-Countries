@@ -1,0 +1,50 @@
+.Footer{
+    /* border: 1px violet dashed; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-self:  center;
+}
+
+.Pages{
+    /* border: 1px red dashed; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Number{
+    width: 20px;
+    height: 20px;
+    /* border: 1px red dashed; */
+    font-size: 15px;
+    color: black;
+
+    margin: 0px 5px 0px 5px;
+    align-self: center;
+    text-align: center;
+    font-family: HelveticaLTStd-UltraComp;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Number:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.listItem{
+    display: inline;
+}
+
+@font-face {
+    font-family: HelveticaLTStd-UltraComp;
+    src: url('../../Assets/fonts/HelveticaLTStd-UltraComp.otf');
+}

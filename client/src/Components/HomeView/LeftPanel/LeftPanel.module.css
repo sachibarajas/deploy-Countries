@@ -1,0 +1,24 @@
+.leftPanel{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.title{
+    font-family: HelveticaLTStd-cond;
+    font-size: 20px;
+    color: black;
+    align-self: baseline;
+    margin-bottom: 10px;
+}
+
+
+
+@font-face {
+    font-family: HelveticaLTStd-cond;
+    font-style: normal;
+    src: url('../../../Assets/fonts/HelveticaLTStd-Cond.otf');
+}

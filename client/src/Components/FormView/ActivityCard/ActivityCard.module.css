@@ -1,0 +1,80 @@
+.ActivityCard{
+    display: flex;
+    padding: 0px ;
+    width:85%;
+    height: 35%;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    margin: 0px 0px 0px 20px;
+   
+}
+.activityInfo{
+    width: 75%;
+    padding: 0px;
+    height: 100%;
+    background-image: url('../../../Assets/Images/actCard.png');
+    background-size: contain;
+}
+
+.activityText{
+    height: 100%;
+    margin: 15px 5px 10px 20px;
+    padding: 10px 5px 0px 15px;
+}
+
+.infoItem{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Label{
+    padding: 0px;
+    margin: 0px;
+    font-family: RobotoCondensed-Light;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px 0px 8px 0px;
+}
+
+.Value{
+    padding: 0px;
+    margin: 0px 0px 8px 5px;
+    font-family: RobotoCondensed-Light;
+    font-size: 13px;
+}
+
+.actCountries{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.countryFlag{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    filter: sepia(50%);
+}
+
+.Country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.countryName{
+    font-size: 12px;
+    font-family: RobotoCondensed-Light;
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url('../../../Assets/fonts/RobotoCondensed-Light.ttf');
+}

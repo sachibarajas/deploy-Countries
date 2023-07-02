@@ -1,0 +1,42 @@
+.Order{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 90%;
+}
+
+.Label{
+    font-family: HelveticaLTStd-cond;
+    font-size: 17px;
+    text-align: left;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.Input{
+    width: 100%;
+    background-color: transparent;
+    border:darkgray 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+.Select{
+    width: 100%;
+    background-color: transparent;
+    border:darkgray 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 7px;
+    color: darkgray;
+    font-family: HelveticaLTStd-cond;
+    font-size: 15px;
+    text-align: left;
+}
+
+@font-face {
+    font-family: HelveticaLTStd-cond;
+    font-style: normal;
+    src: url('../../../Assets/fonts/HelveticaLTStd-Cond.otf');
+}

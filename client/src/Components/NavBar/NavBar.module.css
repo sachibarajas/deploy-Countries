@@ -1,0 +1,40 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: 0px;
+    height: 10%;
+}
+
+.socialMedia{
+    margin: 10px;
+    padding-right: 50px;
+}
+
+.routeLabel{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    font-family: HelveticaLTStd-Cond;
+}
+
+.routeLabel:hover{
+    color: brown;
+}
+
+.socialMediabtn{
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.socialMediabtn:hover{
+    box-shadow: 5px 5px 3px darkgray;
+}
+
+@font-face {
+    font-family: HelveticaLTStd-cond;
+    font-style: normal;
+    src: url('../../Assets/fonts/HelveticaLTStd-Cond.otf');
+}

@@ -1,0 +1,14 @@
+.Form{
+    background-image: url('../../Assets/Images/formBG.jpg');
+    background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.divLine{
+    align-self: center;
+    border: darkgray solid 1px;
+    height: 85%;
+}

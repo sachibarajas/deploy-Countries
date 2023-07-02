@@ -1,0 +1,26 @@
+[
+    {
+        "name": "spinning",
+        "difficulty" : 3,
+        "duration": 2,
+        "season": "Summer"
+    },
+    {
+        "name": "running",
+        "difficulty" : 2,
+        "duration": 2,
+        "season": "Spring"
+    },
+    {
+        "name": "gliding",
+        "difficulty" : 4,
+        "duration": 1,
+        "season": "Summer"
+    },
+    {
+        "name": "horseback ridding",
+        "difficulty" : 2,
+        "duration": 2,
+        "season": "Winter"
+    }
+]

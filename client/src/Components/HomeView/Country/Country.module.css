@@ -1,0 +1,141 @@
+.Country{
+    /* border: 1px black solid; */
+    display: flex;
+    padding: 10px;
+    position: relative;
+    width: 17%;
+    height: 45%;
+    align-items: center;
+    justify-items: center;
+}
+
+.backGroundImg{
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 90%;
+    justify-items: center;
+    padding-left: 8px;
+    /* border: 1px blue dashed; */
+}
+
+.Tag{
+    word-wrap:break-word;
+    margin: 0px 0px 0px 5px;
+    writing-mode:vertical-rl;
+    transform: rotate(0.5turn);
+    font-family: LibreCaslonText-Regular;
+    letter-spacing: 4px;
+    
+    color: #999999;
+    font-size: 25px;
+}
+
+.divLine{
+    border: darkgray solid 0.5px;
+    height: 85%;
+    opacity: 0.5;
+}
+
+.Flag{
+    position: absolute;
+    top:19.3%;
+    right: 21%;
+    width: 16.1%;
+    height: 13.7%;
+    filter: sepia(70%);
+    border-radius: 50%;
+}
+
+.Info{
+    position: absolute;
+    width: 60%;
+    bottom: 15%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0px 5px;
+}
+
+.moreInfo{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+}
+
+.Name{
+    text-align: left;
+    margin: 0px;
+    font-family: LibreCaslonText-Italic;
+    color: #808080;
+    font-size: 15px;
+}
+
+.Continent{
+    font-family: RobotoCondensed-Light;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    color: #808080;
+    font-size: 15px;
+}
+
+.plusBtn{
+    width: 20px;
+    height: 20px;
+}
+
+.infoWd{
+    margin: 0px 5px;
+    font-family: Roboto-Regular;
+    color: #666666;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.Link{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+    
+.Link:hover{
+    box-shadow: 5px 5px 3px darkgray;
+}
+
+.infoWd:hover{
+    color: orange;
+}
+
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url('../../../Assets/fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: LibreCaslonText-Regular;
+    src: url('../../../Assets/fonts/LibreCaslonText-Regular.ttf');
+}
+
+@font-face {
+    font-family: LibreCaslonText-Italic;
+    src: url('../../../Assets/fonts/LibreCaslonText-Italic.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../../../Assets/fonts/Roboto-Regular.ttf');
+}

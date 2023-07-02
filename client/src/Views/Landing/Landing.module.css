@@ -1,0 +1,53 @@
+.landingContainer{
+    background-image: url('../../Assets/landingBG.jpg');
+    background-size: contain;
+    height: 100vh;
+    background-position: fixed;
+    position: relative;
+}
+
+.presentation{
+    width: 350px;
+    position: absolute;
+    top: 210px;
+    left: 600px;
+    font-family: LibreCaslonItalic;
+    text-align: left;
+    color: darkgray;
+}
+
+.startBtnImg{
+    position: absolute;
+    top: 170px;
+    right: 155px;
+    width: 110px;
+    height: 43px;    
+    border-radius: 10px;
+}
+.startBtnImg:hover{
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.socialMedia{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.socialMediabtn{
+    width: 50px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.socialMediabtn:hover{
+    box-shadow: 5px 5px 3px darkgray;
+}
+
+@font-face {
+    font-family: LibreCaslonItalic;
+    font-style: italic;
+    src: url('../../Assets/fonts/LibreCaslonText-Italic.ttf');
+}

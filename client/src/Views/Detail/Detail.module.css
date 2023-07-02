@@ -1,0 +1,83 @@
+.Detail{
+    height: 100vh;
+    position: relative;
+}
+
+.Footer{
+    position: absolute;
+    width: 100%;
+    left:0%;
+    bottom: 0%;
+}
+
+.detailCard{
+    position: absolute;
+    top: 14%;
+    left: 26%;
+    width: 50%;
+    z-index: -2;
+}
+
+.Flag{
+    position: absolute;
+    right: 28.2%;
+    top: 22%;
+    width: 6%;
+    height: 17%;
+    filter: sepia(50%);
+    z-index: -1;
+}
+
+.Info{
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    padding: 10px 0px 10px 10px;
+    width: 20%;
+}
+
+.infoItem{
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    margin: 0px 0px 10px 0px;
+}
+
+.Label{
+
+    margin: 0px;
+    font-family: LibreCaslonText-Italic;
+    font-size: 11px;
+    /* font-weight: bold; */
+    text-align: left;
+    width:max-content;
+    word-break: keep-all;
+    color: #676161;
+    font-weight: bold;
+}
+
+.Data{
+    margin: 0px 0px 0px 5px;
+    font-family: LibreCaslonText-Italic;
+    font-size: 11px;
+    text-align: left;
+    word-wrap: break-word;
+    color: #808080;
+}
+
+.activityBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.Activities{
+    border: #808080 1px solid;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 60px;
+}
+
+@font-face {
+    font-family: LibreCaslonText-Italic;
+    src: url('../../Assets/fonts/LibreCaslonText-Italic.ttf');
+}
