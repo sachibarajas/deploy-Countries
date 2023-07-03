@@ -1,13 +1,14 @@
 import s from './LeftPanel.module.css';
 import { useEffect} from 'react';
 import { useDispatch } from 'react-redux';
-import { getActivities } from '../../../redux/Actions/actions';
+import { getActivities, getCountries } from '../../../redux/Actions/actions';
 import Form from '../Form/Form';
 
 const LeftPanel = ()=>{
     const dispatch = useDispatch();
     useEffect(()=>{
         dispatch(getActivities());
+        dispatch(getCountries());
     },[])
 
     return(
