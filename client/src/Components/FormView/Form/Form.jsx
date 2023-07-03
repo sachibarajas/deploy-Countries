@@ -101,9 +101,9 @@ const Form = () => {
         console.log('submitting');
         if (form.name !=='' && form.countries.length != 0 && form.difficulty!=='' && form.duration!=='' && form.season!=='') {
             console.log(`form a enviar: ${form}`);
-            // const response = axios.post('http://localhost:3001/activities',form)
-            // .then(res=>alert(res))
+            dispatch(getCountries());
             dispatch(createActivity(form));
+            
         } else{
             alert('You must select or add all fields');
             setCountriesNames([]);
