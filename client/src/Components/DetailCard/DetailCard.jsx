@@ -25,7 +25,7 @@ const DetailCard = ()=>{
     return(
        <div className={s.Detail}>
             <NavBar/>
-            <a href="http://localhost:3000/home" >
+            <a href="https://deploy-countries-silk.vercel.app/home" >
                 <img src={backImg} alt="" className={s.backImg}/>
             </a>
             {/* <Link to='/home' className={s.routeLabel}>
